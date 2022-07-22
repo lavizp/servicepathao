@@ -32,6 +32,7 @@ export default function LoginPage() {
         setLogin(false)
 
         setTextUI('Wrong Credentials,Please Try Again')
+        
     }
 
     const OnSignUpPage = () =>{
@@ -66,6 +67,7 @@ export default function LoginPage() {
                             <div className="input">
                                 <input type="password" className="pass" placeholder="Password:"onChange={(e)=> PasswordChangeHandler(e)}/>
                             </div>
+                            {textUI}
                         </div>
                     </div>
                         <div className="logbtn">

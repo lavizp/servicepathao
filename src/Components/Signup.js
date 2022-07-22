@@ -1,14 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../Styles/SignupPage.css'
 import {useNavigate} from 'react-router-dom'
 
 
 export default function Signup() {
-
+    const [textUI, setTextUI] = useState('Please Sign Up');
+    
     let navigate = useNavigate();
 
     const OnLoginButton = () =>{
         navigate('/login');
+    }
+    const OnSignUpButton = () =>{
+        setTextUI('Signed In, Please Login');
+
     }
 
 
@@ -20,6 +25,7 @@ export default function Signup() {
             </div>
             <div className="details">
                 <h4>Join Service Pathao</h4>
+                {textUI}
             </div>
         </div>
         <div className="form">
@@ -57,7 +63,7 @@ export default function Signup() {
                     </div>
                         <div className="logbtn">
                             <div className="sign">
-                               <button className="signbtn">Sign Up</button> </div>
+                               <button className="signbtn" onClick={OnSignUpButton}>Sign Up</button> </div>
                                 <p>OR</p>
                                 <div className="log">
                                         <button className="loginbtn" onClick={OnLoginButton}>Log In</button>
