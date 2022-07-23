@@ -1,9 +1,11 @@
 import React,{useState} from 'react'
 import '../Styles/LoginPage.css'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, Link} from 'react-router-dom'
 
-export default function LoginPage() {
-  let usernameFromAPI = '9840030487';
+
+export default function ServiceLogin() {
+
+    let usernameFromAPI = '9840030487';
     let passwordFromAPI = 'Service';
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -47,7 +49,7 @@ export default function LoginPage() {
                 <h1>Service Pathao</h1>
             </div>
             <div className="details">
-                <h4>Your service provider</h4>
+                <h4>For Service Providers</h4>
             </div>
         </div>
         <div className="form">
@@ -83,7 +85,7 @@ export default function LoginPage() {
             </div>
             
             <div className="serviceProv">
-                <a href="D:\Coding\CSS projects\Service Pathao\For Service Provider\1)Login\index.html">Join as service Providers</a>
+               <Link to ="/login">For Users</Link>
             </div>
         </div>
 
@@ -91,12 +93,3 @@ export default function LoginPage() {
 
   )
 }
-    {/* <div>
-<input type= 'text' onChange={(e)=> UsernameChangeHandler(e)}/>
-<input type= 'text' onChange={(e)=> PasswordChangeHandler(e)}/>
-<button onClick={OnSubmit}>Submit</button>
-{isLoggedIn? <p>LoggedIn</p> : <p>{textUI}</p>}
-
-</div> */}
-
-
