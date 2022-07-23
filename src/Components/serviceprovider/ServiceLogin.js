@@ -38,7 +38,7 @@ export default function ServiceLogin() {
     }
 
     const OnSignUpPage = () =>{
-        navigate('/signup');
+        navigate('/service/signup');
 
     }
 

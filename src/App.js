@@ -3,6 +3,7 @@ import Signup from "./Components/customer/Signup";
 import HomePage from "./Components/customer/HomePage";
 import SubmitPage from "./Components/customer/SubmitPage";
 import ServiceLogin from "./Components/serviceprovider/ServiceLogin";
+import ServiceSinup from "./Components/serviceprovider/ServiceSinup";
 import {
   Routes,
   Route,
@@ -20,6 +21,8 @@ function App() {
         <Route path ="/sumbit/:id" element={<SubmitPage/>}/>
         <Route path ="/service" >
         <Route path ="login" element={<ServiceLogin/>}/>
+        <Route path ="signup" element={<ServiceSinup/>}/>
+
 
         </Route>
 

@@ -1,127 +1,102 @@
 
 [
     {
-        "title": "General",
+        "title": "Technical Workers",
         "icon": "bi-gear-fill",
         "childrens": [
             {
-                "title": "Home",
-                "icon": "bi-house-fill",
+                "title": "Mechanic",
                 "path": "/"
             },
             {
-                "title": "About",
-                "icon": "bi-info-circle-fill",
-                "path": "/about"
+                "title": "Electrician",
+                "path": "/"
             },
             {
-                "title": "Contact",
-                "icon": "bi-phone-fill",
-                "childrens": [
-                    {
-                        "title": "Facebook",
-                        "icon": "bi-facebook"
-                    },
-                    {
-                        "title": "Twitter",
-                        "icon": "bi-twitter"
-                    },
-                    {
-                        "title": "Instagram",
-                        "icon": "bi-instagram"
-                    }
-                ]
+                "title": "Plumber",
+                "path": "/"
             },
             {
-                "title": "FAQ",
-                "icon": "bi-question-circle-fill"
+                "title": "Photographer",
+                "path":"/"
             }
         ]
     },
     {
-        "title": "Account",
+        "title": "Travel",
         "icon": "bi-info-circle-fill",
         "childrens": [
             {
-                "title": "Login",
-                "path": "/login"
+                "title": "Driver",
+                "path": "/"
             },
             {
-                "title": "Register",
-                "path": "/register"
+                "title": "Travel Guide",
+                "path": "/"
             },
             {
-                "title": "Forgot Password",
-                "path": "/forgot-password"
-            },
-            {
-                "title": "Reset Password",
-                "path": "/reset-password"
+                "title": "Photographer",
+                "path": "/"
             }
         ]
     },
     {
-        "title": "Profile",
+        "title": "Engineer",
         "icon": "bi-person-fill",
         "childrens": [
             {
-                "title": "Profile",
-                "path": "/profile"
+                "title": "Civil",
+                "path": "/"
             },
             {
-                "title": "Settings",
-                "childrens": [
-                    {
-                        "title": "Account",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "Billing",
-                        "childrens": [
-                            {
-                                "title": "Payment",
-                                "path": "/settings/billing/payment"
-                            },
-                            {
-                                "title": "Subscription",
-                                "path": "/settings/billing/subscription"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Notifications",
-                        "path": "/settings/notifications"
-                    }
-                ]
+                "title": "Electric",
+                "path": "/"
             },
             {
-                "title": "Logout",
-                "path": "/logout"
+                "title": "Mechanic",
+                "path": "/"
+            },
+            {
+                "title": "Artitech",
+                "path": "/"
             }
+           
         ]
     },
     {
-        "title": "Advance",
+        "title": "Hospitality",
         "icon": "bi-view-list",
         "childrens": [
             {
-                "title": "Search",
+                "title": "Beautician",
                 "path": "/search"
             },
             {
-                "title": "History",
+                "title": "Barber",
+                "path": "/history"   
+            },
+            {
+                "title": "Mehendi Designer",
                 "path": "/history"   
             }
         ]
     },
     {
-        "title": "Support",
-        "icon": "bi-question-circle-fill",
-        "path": "/support"
-    },
-    {
-        "title": "Report Bug",
-        "icon": "bi-bug",
-        "path": "/report-bug"
+        "title": "Construction",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Artitech",
+                "path": "/search"
+            },
+            {
+                "title": "Labor",
+                "path": "/history"   
+            },
+            {
+                "title": "False Ceiling Worker",
+                "path": "/history"   
+            }
+        ]
     }
 ]

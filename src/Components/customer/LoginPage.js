@@ -25,7 +25,7 @@ export default function LoginPage() {
         {
             setLogin(true)
             setTextUI('LoggedIn')
-            navigate('/service/home');
+            navigate('/home');
             return
         }
 
