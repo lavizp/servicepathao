@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-orange position-sticky">
+        <nav className="navbar navbar-expand-lg bg-orange position-sticky navbarhosolti">
         <div className="container-fluid">
             <a className="navbar-brand text-white" href="#">Service Pathao</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

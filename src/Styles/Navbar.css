@@ -1,4 +1,8 @@
-
+.navbarhosolti{
+  position: fixed;
+  top:0;
+  left: 0;
+}
 .bg-orange{
     background: #F77F00;
 }
