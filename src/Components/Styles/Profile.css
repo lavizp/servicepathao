@@ -1,0 +1,101 @@
+@media screen and (max-width: 800px) {
+    .info{
+        grid-template-columns:auto auto;
+    }
+
+}
+@media  screen and (max-width: 400px) {
+    .info{
+        grid-template-columns: auto;
+        grid-gap:1em;
+    }
+    .containers{
+        gap:1em;
+        padding-top: 1em;
+    }
+    .text{
+        font-size: 2.2rem;
+    }
+    .name{
+        font-size: 1.9em;
+    }
+    .attributes{
+        font-size: 1.3em;
+    }
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+.bg-orange{
+    background: #F77F00;
+
+}
+main{
+    width:100vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-top: 2em;
+    width: 90vw;
+}
+.texta{
+    /* font-size: 1.8rem; */
+    color:red;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.prof{
+    display: flex;
+flex-direction: column;
+gap: 3em;
+}
+.info{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:2em ;
+}
+.infos{
+    /* display: flex;
+align-items: center; */
+gap: 6px;
+}
+infos{
+    color:red;
+}
+.name{
+    font-size: 2.1rem;
+}
+.attributes{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.buttons{
+    display:flex;
+    gap:1em;
+}
+.edit{
+    height:3em;
+    width:9em;
+}
+.changepw{
+    height:3em;
+    width:12em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Contrail+One&family=Inconsolata&display=swap');
+.buttons .edit button,.buttons .changepw button{
+    
+    height:100%;
+    width:100%;
+    background-color: #118DFF;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}

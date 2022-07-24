@@ -2,7 +2,7 @@ import React from 'react'
 import CartSingle from './CartSingle'
 
 export default function CartList({title,data}) {
-    const abc = data.map((item) => <CartSingle name={item.name} price={item.price}/>)
+    const abc = data.map((item) => <CartSingle name={item.name} price={item.price} stars={item.stars}/>)
   return (
     <div className="p-2">
 

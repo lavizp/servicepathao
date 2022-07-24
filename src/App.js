@@ -5,6 +5,7 @@ import SubmitPage from "./Components/customer/SubmitPage";
 import ServiceLogin from "./Components/serviceprovider/ServiceLogin";
 import ServiceSinup from "./Components/serviceprovider/ServiceSinup";
 import CartPage from "./Components/customer/CartPage";
+import ProfilePage from "./Components/customer/ProfilePage";
 import {
   Routes,
   Route,
@@ -25,6 +26,10 @@ function App() {
         <Route path ="signup" element={<ServiceSinup/>}/>
         </Route>
         <Route path ="/cart" element={<CartPage/>}/>
+        <Route path ="/cart" element={<CartPage/>}/>
+        <Route path ="/profile/:name" element={<ProfilePage/>}/>
+
+
 
 
       </Routes>
