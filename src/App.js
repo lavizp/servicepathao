@@ -4,6 +4,7 @@ import HomePage from "./Components/customer/HomePage";
 import SubmitPage from "./Components/customer/SubmitPage";
 import ServiceLogin from "./Components/serviceprovider/ServiceLogin";
 import ServiceSinup from "./Components/serviceprovider/ServiceSinup";
+import CartPage from "./Components/customer/CartPage";
 import {
   Routes,
   Route,
@@ -22,9 +23,9 @@ function App() {
         <Route path ="/service" >
         <Route path ="login" element={<ServiceLogin/>}/>
         <Route path ="signup" element={<ServiceSinup/>}/>
-
-
         </Route>
+        <Route path ="/cart" element={<CartPage/>}/>
+
 
       </Routes>
       

@@ -24,7 +24,8 @@ export default function Navbar() {
                         <a className="nav-link" href="#">Profile</a>
                     </li>
                     <li className="nav-item">
-                        <a href="" className="nav-link">Cart</a>
+                    <Link to='/cart' className="nav-link">Cart</Link>
+
                     </li>
                 </ul>
 

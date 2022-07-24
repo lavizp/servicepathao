@@ -1,0 +1,48 @@
+[
+    {
+        "maintitle": "Technical Workers",
+        "carts": [
+            {
+                "name": "Mechanic",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            },
+            {
+                "name": "uncle",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            },
+            {
+                "name": "Mechanic",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            }
+        ]
+    },
+    {
+        "maintitle": "Mechanic",
+        "carts": [
+            {
+                "name": "Mechanic",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            },
+            {
+                "name": "aunty",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            },
+            {
+                "name": "Mechanic",
+                "image": "/",
+                "stars": "3",
+                "price": "145"
+            }
+        ]
+    }
+]

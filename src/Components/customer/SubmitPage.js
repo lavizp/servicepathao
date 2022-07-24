@@ -16,7 +16,7 @@ export default function SubmitPage() {
                 <h1>{serviceData[id-1].maintitle}</h1>{""}
             </div>
             <div className="inputs">
-                <label htmlFr="date">Date:</label>
+                <label htmlFor="date">Date:</label>
                 <div className="date">
                     <input type="date" name="date" id="date"/>
                 </div>

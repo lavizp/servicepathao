@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import '../Styles/SignupPage.css'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate,Link} from 'react-router-dom'
 
 
 export default function Signup() {
@@ -51,7 +51,7 @@ export default function Signup() {
                             <div className="input">
                                 <input type="text" placeholder="Address:" id="address" />
                             </div>
-                            <label htmlfor="dob" className="dobLabel">Date of Birth</label>
+                            <label htmlFor="dob" className="dobLabel">Date of Birth</label>
                             <div className="input">
                                 
                                 <input type="date" aria-placeholder="DOB:" id="dob" max="2005-01-01" />
@@ -73,7 +73,7 @@ export default function Signup() {
            
             
             <div className="serviceProv">
-                <a href="D:\Coding\CSS projects\Service Pathao\For Service Provider\1)Login\index.html">Join as service Providers</a>
+                <Link to='./service/login'>Join as service Providers</Link>
             </div>
         </div>
 
