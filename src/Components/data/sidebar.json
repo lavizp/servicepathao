@@ -5,19 +5,19 @@
         "childrens": [
             {
                 "title": "Mechanic",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Electrician",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Plumber",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Photographer",
-                "path":"/"
+                "path":""
             }
         ]
     },
@@ -27,15 +27,15 @@
         "childrens": [
             {
                 "title": "Driver",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Travel Guide",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Photographer",
-                "path": "/"
+                "path": ""
             }
         ]
     },
@@ -45,19 +45,19 @@
         "childrens": [
             {
                 "title": "Civil",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Electric",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Mechanic",
-                "path": "/"
+                "path": ""
             },
             {
                 "title": "Artitech",
-                "path": "/"
+                "path": ""
             }
            
         ]
