@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path ="/login" element={<LoginPage/>}/>
+        <Route path ="/" element={<LoginPage/>}/>
         <Route path ="/signup" element={<Signup/>}/>
         <Route path ="/home" element={<HomePage/>}/>
         <Route path ="/sumbit/:id" element={<SubmitPage/>}/>

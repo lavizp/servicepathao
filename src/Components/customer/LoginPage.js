@@ -42,6 +42,7 @@ export default function LoginPage() {
 
   return (
     <div className="container">
+        
         <div className="text">
             <div className="heading">
                 <h1>Service Pathao</h1>
@@ -50,6 +51,10 @@ export default function LoginPage() {
                 <h4>Your service provider</h4>
             </div>
         </div>
+        <p>
+            Username: 9840030487
+            Password: Service
+        </p>
         <div className="form">
             <div className="formbox">
 
