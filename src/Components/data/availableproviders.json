@@ -9,7 +9,7 @@
                 "price": "145"
             },
             {
-                "name": "uncle",
+                "name": "Electrician",
                 "image": "/",
                 "stars": "3",
                 "price": "145"
@@ -38,7 +38,7 @@
                 "price": "145"
             },
             {
-                "name": "Mechanic",
+                "name": "Hero",
                 "image": "/",
                 "stars": "3",
                 "price": "145"

@@ -28,7 +28,7 @@ export default function SubmitPage() {
                         placeholder="Description:"></textarea>
                 </div>
                 <div className="check">
-                    <label htmlFr="emergency">Emergency</label> <input type="checkbox" name="emergency" id="emergency"/>
+                    <label htmlFor="emergency">Emergency</label> <input type="checkbox" name="emergency" id="emergency"/>
                 </div>
                 <div className="sub">
 
