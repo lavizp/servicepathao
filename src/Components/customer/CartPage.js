@@ -1,3 +1,5 @@
+//The Cart Page Component
+
 import React,{useState} from 'react'
 import CartList from './CartList';
 import CartData from '../data/availableproviders.json'

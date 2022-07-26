@@ -1,3 +1,5 @@
+//Home Page Component
+
 import React from 'react'
 import '../Styles/HomePage.css'
 import Navbar from './Navbar'

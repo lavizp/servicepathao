@@ -1,3 +1,5 @@
+//Single Entity in Cart List
+
 import React from 'react'
 
 export default function CartSingle({name, image, stars, price, onIsAccepted}) {

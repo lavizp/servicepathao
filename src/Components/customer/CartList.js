@@ -1,3 +1,5 @@
+//The list of Items in Cart Page
+
 import React from 'react'
 import CartSingle from './CartSingle'
 
