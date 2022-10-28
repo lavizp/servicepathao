@@ -64,7 +64,7 @@
 }
 .form{
     /* background-color: #D9D9D9; */
-    height:25em;
+    min-height:25em;
     width: 24em;
     display:flex;
     flex-direction: column;
@@ -75,7 +75,6 @@
 }
 .formbox{
     background-color: #d9d9d9;
-    height:100%;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -85,11 +84,10 @@
     border-radius: 21px;
 }
 .info{
-    height: 68%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
   }
   .LoginText{
     font-size: 1.813rem;

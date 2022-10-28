@@ -21,7 +21,7 @@ export default function LoginPage() {
     }
     let navigate = useNavigate();
     const OnSubmit = () =>{
-        if(username == usernameFromAPI && password == passwordFromAPI)
+        if(username === usernameFromAPI && password === passwordFromAPI)
         {
             setLogin(true)
             setTextUI('LoggedIn')
